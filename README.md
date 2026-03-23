@@ -11,7 +11,6 @@ The pipeline handles rigid and non-rigid image registration, deep-learning-based
 
 ## 📂 Project Structure
 
-\`\`\`text
 my_msi_project/
 │
 ├── main.py                     # CLI Entry point to run the entire pipeline
@@ -25,7 +24,6 @@ my_msi_project/
 ├── dash_viewer.py              # Interactive Dash dashboard for visual analysis
 ├── requirements.txt            # Python package dependencies
 └── README.md                   # Project documentation
-\`\`\`
 
 ## ⚙️ Requirements & Installation
 
