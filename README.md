@@ -26,7 +26,7 @@ my_msi_project/
 ├── dash_viewer.py              # Interactive Dash dashboard for visual analysis
 ├── requirements.txt            # Python package dependencies
 └── README.md                   # Project documentation
-```text
+```
 
 ## ⚙️ Requirements & Installation
 
