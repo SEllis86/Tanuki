@@ -1,16 +1,18 @@
 <img width="300" height="400" alt="Tanuki" src="https://github.com/user-attachments/assets/94f1d7ac-7f63-4cfd-8298-425bb9787b90" />
 
 # Tanuki
-Github repository of Tanuki for high throughput single cell MSI and microscopy data processing and analysis
 
-# Multimodal Spatial Imaging (MSI) Processing Pipeline
+**Github repository of Tanuki for high throughput single cell MSI and microscopy data processing and analysis.**
 
-This repository contains a high-performance, parallelized Python pipeline for processing, segmenting, and analyzing Multimodal Spatial Imaging (MSI) and `imzML` mass spectrometry data. 
+## Multimodal Spatial Imaging (MSI) Processing Pipeline
+
+This repository contains a high-performance, parallelized Python pipeline for processing, segmenting, and analyzing Multimodal Spatial Imaging (MSI) and imzML mass spectrometry data. 
 
 The pipeline handles rigid and non-rigid image registration, deep-learning-based cellular segmentation (via Cellpose on GPU), morphological feature extraction, massively parallel spectral intensity mapping, and advanced dimensionality reduction (UMAP, DensMAP, t-SNE, NMF). It concludes by launching a local interactive Dash application for single-cell spectral inspection.
 
 ## 📂 Project Structure
 
+```text
 my_msi_project/
 │
 ├── main.py                     # CLI Entry point to run the entire pipeline
@@ -24,6 +26,7 @@ my_msi_project/
 ├── dash_viewer.py              # Interactive Dash dashboard for visual analysis
 ├── requirements.txt            # Python package dependencies
 └── README.md                   # Project documentation
+
 
 ## ⚙️ Requirements & Installation
 
