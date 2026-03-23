@@ -26,7 +26,7 @@ my_msi_project/
 ├── dash_viewer.py              # Interactive Dash dashboard for visual analysis
 ├── requirements.txt            # Python package dependencies
 └── README.md                   # Project documentation
-
+```text
 
 ## ⚙️ Requirements & Installation
 
@@ -34,9 +34,9 @@ my_msi_project/
 2. **GPU Support:** For Stage 2 (Cellpose), an NVIDIA GPU with CUDA support is highly recommended to prevent severe bottlenecks.
 3. **Dependencies:** Install the required Python packages using `pip`:
 
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 *Note: You may need to install PyTorch separately depending on your specific CUDA version. Visit the [PyTorch website](https://pytorch.org/get-started/locally/) for the correct installation command for your system.*
 
