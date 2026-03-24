@@ -32,7 +32,17 @@ MSI_Project/
 
 1. **Python:** Requires Python 3.9 or higher.
 2. **GPU Support:** For Stage 2 (Cellpose), an NVIDIA GPU with CUDA support is highly recommended to prevent severe bottlenecks.
-3. **Dependencies:** Install the required Python packages using `pip`:
+3. Get the Code: First, clone this repository to your local machine:
+
+```bash
+git clone https://github.com/SEllis86/Tanuki.git
+cd Tanuki
+```
+
+(Alternatively, you can click the green "Code" button at the top of this page and select "Download ZIP", then extract it and open your terminal inside that folder).
+
+
+4. **Dependencies:** Install the required Python packages using `pip`:
 
 ```bash
 pip install -r requirements.txt
