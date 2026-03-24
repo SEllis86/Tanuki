@@ -52,14 +52,14 @@ The pipeline is designed to run automatically from end to end using `main.py`. Y
 
 Open your terminal or command prompt and run:
 
-\`\`\`bash
+```bash
 python main.py --input_dir "path/to/your/master_directory" --csv_path "path/to/your/masses.csv"
-\`\`\`
+```
 
 **Example:**
-\`\`\`bash
+```bash
 python main.py --input_dir "F:\Mika\GBA_data" --csv_path "F:\Mika\matched_peaks.csv"
-\`\`\`
+```
 
 If you run `python main.py` without arguments, it will fall back to the default paths specified in `config.py` (which default to a local `./data/` folder).
 
