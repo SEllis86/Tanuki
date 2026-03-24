@@ -84,3 +84,12 @@ This pipeline handles extremely large arrays (often >5GB per sample in memory).
 * The script heavily utilizes garbage collection (`gc.collect()`) and in-place operations to prevent Out-Of-Memory (OOM) errors.
 * OpenCV's max image pixel limit is overridden in `config.py`. 
 * If a folder fails during Stage 1 or 3, the script automatically catches it and requeues it using a safe single-threaded fallback mode.
+
+## ⚖️ License & Commercial Use
+
+Tanuki is open-source and freely available under the **GNU Affero General Public License v3.0 (AGPLv3)**. 
+
+This means you are free to use, modify, and distribute this software for academic, personal, or open-source projects, provided that you also release your modified source code under the same AGPLv3 license.
+
+**Commercial Licensing**
+If you represent a commercial entity and wish to use Tanuki in a proprietary, closed-source product or service without the copyleft restrictions of the AGPLv3, please contact the author to negotiate a commercial license.
