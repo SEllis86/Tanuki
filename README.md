@@ -2,7 +2,7 @@
 
 ## Tanuki: Multimodal Mass Spectrometry Imaging (MSI) Processing Pipeline
 
-This repository contains a high-performance, parallelized Python pipeline for processing, segmenting, and analyzing Multimodal Spatial Imaging (MSI) and imzML mass spectrometry data. 
+This repository contains a high-performance, parallelized Python pipeline for processing, segmenting, and analyzing microscopy and imzML mass spectrometry paired data. 
 
 The pipeline handles rigid and non-rigid image registration, deep-learning-based cellular segmentation (via Cellpose on GPU), morphological feature extraction, massively parallel spectral intensity mapping, and advanced dimensionality reduction (UMAP, DensMAP, t-SNE, NMF). It concludes by launching a local interactive Dash application for single-cell spectral inspection.
 
