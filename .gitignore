@@ -1,0 +1,60 @@
+# =======================================================
+# Tanuki Pipeline .gitignore
+# =======================================================
+
+# 1. Project-Specific Data & Output Files
+# -------------------------------------------------------
+# Ignore the default data directory
+data/
+
+# Ignore massive Mass Spectrometry files
+*.imzML
+*.ibd
+
+# Ignore all TIFF image files (Pre/Post/Moved)
+*.tif
+*.tiff
+
+# Ignore massive numpy array dumps
+*.npz
+*.npy
+
+# Ignore large concatenated CSVs and output matrices
+*concatenated*.csv
+cleaned_feature_matrix.csv
+postfilteravg.csv
+
+# Ignore generated Dash assets and thumbnails
+dash_assets/thumbnails/
+
+# Ignore generated audit images and HTML plots
+*.png
+*.html
+
+# 2. Python & Environment Clutter
+# -------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env
+
+# Jupyter Notebook checkpoints (if you use them later)
+.ipynb_checkpoints/
+
+# 3. OS Generated Files
+# -------------------------------------------------------
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
