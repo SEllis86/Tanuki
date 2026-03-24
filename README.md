@@ -13,7 +13,7 @@ The pipeline handles rigid and non-rigid image registration, deep-learning-based
 ## 📂 Project Structure
 
 ```text
-my_msi_project/
+MSI_Project/
 │
 ├── main.py                     # CLI Entry point to run the entire pipeline
 ├── config.py                   # Environment variables and default path configurations
