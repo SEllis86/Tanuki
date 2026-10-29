@@ -58,3 +58,13 @@ env/
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+# 4. Package build / test clutter
+# -------------------------------------------------------
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Local settings files with machine-specific paths (configs/local_*.json etc.)
+configs/local*

@@ -1,0 +1,25 @@
+# The versions the v5 pipeline was run with (Python 3.13.6, Windows 10, CPU-only torch).
+# pip install -r requirements.txt && pip install -e .
+numpy==2.1.3
+pandas==2.3.3
+pyarrow==23.0.1
+scipy==1.16.3
+scikit-image==0.25.2
+scikit-learn==1.7.2
+opencv-python-headless==4.13.0.92
+tifffile==2025.10.16
+SimpleITK==2.5.2
+matplotlib==3.10.7
+Pillow==12.0.0
+h5py==3.16.0
+cellpose==4.1.1
+torch==2.9.0
+pewlib==0.10.3
+umap-learn==0.5.9.post2
+numba==0.64.0
+pynndescent==0.5.13
+igraph==0.11.9
+leidenalg==0.11.0
+plotly==5.24.1
+kaleido==0.2.1
+dash==4.0.0rc2

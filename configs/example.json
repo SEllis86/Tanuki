@@ -1,0 +1,13 @@
+{
+  "MASTER_DIR": "D:/data/GBA run",
+  "CSV_PATH": "D:/data/GBA run/BIGmatched_peaks_raw.csv",
+  "safe_ram_workers": 8,
+  "COMBAT_ENABLED": false,
+  "ANALYSIS_AREA_BOUNDS_BY_TYPE": {"ASTRO": [100, 13000], "MICRO": [100, 3500], "NEURO": [200, 2000]},
+  "BONSAI_ENABLED": true,
+  "BONSAI_REPO": null,
+  "BONSAI_PYTHON": null,
+  "BONSAI_AUTO_RUN": true,
+  "VOLCANO_ENABLED": true,
+  "RAW_EXPORT_ENABLED": true
+}
